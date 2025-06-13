@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+# Ignore directories
+downloaded_threads/
+markdown_files/
+__pycache__/
+venv/
+.venv/
+
+# Ignore files
+.env
+preprocess.py
+*.pyc
+=======
+# Ignore directories
+downloaded_threads/
+markdown_files/
+__pycache__/
+venv/
+.venv/
+
+# Ignore files
+.env
+preprocess.py
+*.pyc
+>>>>>>> c983466 (Add knowledge_base.db, update .gitignore, and add vercel.json)
+.DS_Store
