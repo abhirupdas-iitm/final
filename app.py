@@ -406,6 +406,7 @@ async def generate_answer(question, relevant_results, max_retries=2):
             # Prepare improved prompt
             prompt = f"""Answer the following question based ONLY on the provided context. 
             If you cannot answer the question based on the context, say "I don't have enough information to answer this question."
+            If the context involves any kind of numerical scoring (like marks, grades, scores, or bonus), be precise and reflect exactly how the score appears on the dashboard or system, especially if a format like "110" (no slash) is used instead of "11/10".
             
             Context:
             {context}
